@@ -1,3 +1,5 @@
+package functional_interface_example;
+
 import java.util.stream.IntStream;
 
 public class ImperativeVsDeclarative {

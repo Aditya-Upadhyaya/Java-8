@@ -1,3 +1,4 @@
+package functional_interface_example;
 
 import java.util.Comparator;
 
@@ -44,5 +45,8 @@ public class LambdaExample {
         Comparator<Integer> comparatorLamda = (o1,o2)->  o1.compareTo(o2);
 
         System.out.println("Comparator Lamda : "+ comparatorLamda.compare(5, 2));
+        
+
+        
     }
 }
